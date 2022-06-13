@@ -1,55 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: 5G India Forum
+email: contact@5gindiaforum.com
+description: > # this means to ignore newlines until "baseurl:"
+ Primary website for 5GIndiaForum. 
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+banner:
+
+banner5gacia: > 
+ <h2>Joint Webinar on "Towards 5G for Industry in India"</h2>
+            <hr>           
+ <p class="text-red">Industrial 5G will play a key role in helping industrial users achieve the goals of Industrial IoT. A core
+                        requirement of Industrial IoT is the ability to connect sensors, devices, equipment, software applications,
+                        manufacturing production processes, workers, and end consumers.
+                    </p>
+                    <p>COAI is organizing a panel discussion with the stakeholders - TSP, Telecom Vendors, Manufacturing industry
+                        players , System Integrations for Industry 4.0 to stimulate and accelerate the digitization road map of the
+                        industries. This brainstorming will help to identify the requirements from OT industry and readiness of
+                        Indian TSP to provide the reliable connectivity infrastructure and services . Globally, different countries
+                        have adopted and developed new policies to enable private networks.</p>
+                
+                <a target=_blank
+                href="https://coaimeetingroom.webex.com/coaimeetingroom/onstage/g.php?MTID=e69a2d7915ff8dc165994531935252533"
+                class="btn btn-primary btn-xl page-scroll">Register</a>
+                
+
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://5gindiaforum.in/" # the base hostname & protocol for your site
+
+twitter_username: 5gindiaforum
+github_username:  5gif
+
+repon: 5gif.github.io
+branch: gh-pages
+
+collections:
+  articles:
+     output: true
+  events:
+     output: true
+
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+markdown: kramdown
