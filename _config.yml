@@ -24,7 +24,7 @@ banner5gacia: >
                 class="btn btn-primary btn-xl page-scroll">Register</a>
                 
 
-baseurl: "/sophiehmartin/demowebsite_5gif" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://5gindiaforum.in" # the base hostname & protocol for your site
 
 twitter_username: 5gindiaforum
